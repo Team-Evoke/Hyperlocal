@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 
-export default function Home() {
+export default function RootLayout() {
   return (
     <div className="bg-gray-900 text-white min-h-screen">
       {/* Navbar */}
