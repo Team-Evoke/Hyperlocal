@@ -1,9 +1,10 @@
-import Link from "next/link";
+// filepath: c:\Users\gaikw\vsCode\Team_Evoke\Hyperlocal\Hyperlocal\hyperservices\src\app\layout.tsx
+import './globals.css';
+import Nav from './Navbar';
 
-export default function Home() {
+
+export default function RootLayout() {
   return (
-    <h1 className="text-3xl font-bold underline">
-    Hello world!
-  </h1>
+    <Nav></Nav>
   );
 }
